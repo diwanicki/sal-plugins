@@ -40,12 +40,12 @@ class Encryption(IPlugin):
 
         c = Context({
             'title': 'Encryption',
-            'laptop_label': 'Laptops',
+            'laptop_label': 'Port',
             'laptop_ok_count': laptop_ok,
             'laptop_alert_count': laptop_alert,
             'desktop_ok_count': desktop_ok,
             'desktop_alert_count': desktop_alert,
-            'desktop_label': 'Desktops',
+            'desktop_label': 'Desk',
             'plugin': 'Encryption',
             'theid': theid,
             'page': page
